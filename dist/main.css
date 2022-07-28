@@ -1,3 +1,71 @@
-.graticule{fill:none;stroke:#777;stroke-width:.5px;stroke-opacity:.5}.land{fill:gray}.boundary{fill:none;stroke:#fff;stroke-width:.5px}.graticule{fill:none;stroke:#777;stroke-width:.5px;stroke-opacity:.5}.land{fill:rgba(204,204,204,.8)}.boundary{fill:none;stroke:#fff;stroke-width:.5px}
+/*!*************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[1].use[1]!./node_modules/sass-loader/dist/cjs.js!./src/index.scss ***!
+  \*************************************************************************************************************************************/
+.state:hover {
+  fill: yellow;
+  cursor: pointer;
+}
 
-/*# sourceMappingURL=main.css.map*/
+.state {
+  fill: gray;
+}
+
+.states-borders {
+  fill: none;
+  stroke: #fff;
+  stroke-width: 0.5px;
+}
+
+h1 {
+  font-family: "Courier New", Courier, monospace;
+}
+
+body {
+  background-color: lightblue;
+}
+
+.header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.header-img > img {
+  height: 27px;
+  width: 27px;
+  margin-right: 10px;
+}
+
+.nav-bar {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  background-color: lightblue;
+  float: right;
+}
+
+h1 {
+  text-align: center;
+}
+
+h2 {
+  text-align: center;
+}
+
+.Box {
+  display: block;
+  justify-content: center;
+}
+
+#USmap {
+  float: left;
+}
+
+#Bargraph {
+  float: right;
+}
+
+#manufacturer-list {
+  border: 2px solid blue;
+}
