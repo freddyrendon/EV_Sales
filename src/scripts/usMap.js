@@ -29,26 +29,28 @@ class Usmap {
                 .attr("d", path)
                 .attr('class','state')
                 // .attr('state', uState.features[0].properties.name)
-                // .text(function(d) {
-                //     return d.
+                // .text(function() {
+                //     return d
                 // })
+                // debugger
 
 
                 
-                // debugger
+                debugger
                 svg.selectAll('.state')._groups[0]
                 .forEach(element => {
-                    element.addEventListener('click', function (){
+                    element.addEventListener('mouseover', function (){
+                        // return element.__data__.properties.name
                         console.log(element.__data__.properties.name)
                         // const barGraph = new Bargraph(element.__data__.properties.name)
                     })
                     
                 });
+                debugger
                 
             });
 
             
-
     }
 }
 
