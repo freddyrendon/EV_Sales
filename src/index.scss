@@ -3,8 +3,8 @@
 @import "./styles/usmap.scss";
 
 
-h1{
-    font-family: 'Courier New', Courier, monospace;
+* {
+font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
 
@@ -36,6 +36,14 @@ body {
     float: right;
 }
 
+.web-links {
+    padding-left: 200px;
+}
+
+.web-links-right {
+    padding-right: 200px;
+}
+
 
 h1 {
     text-align: center;
@@ -45,24 +53,27 @@ h2{
         text-align: center;
 }
 
-.Box{
-    display: block;
-    justify-content: center;
+#Box {
+    // display: block;
+    // justify-content: center;
+    border: 2px red solid;
 }
 
 #USmap {
-    // border: 2px green solid;
-    float: left;
+    border: 2px green solid;
+    float: left!important;
 }
 
 
 #Bargraph {
-    // border: 2px yellow solid;
-    float: right;
-}
+    border: 2px yellow solid;
+    float: right !important;}
 
 #manufacturer-list {
     border: 2px solid blue;
 }
 
-
+// .inner-box {
+//     border: 5px purple solid;
+//     height: 100px;
+// }

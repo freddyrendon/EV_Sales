@@ -10,7 +10,7 @@ class Usmap {
         const svg = d3.select("#USmap")
             .append("svg")
             .attr("width", width)
-            .attr("height", height);
+            .attr("height",height);
 
         const projection = d3.geoAlbersUsa()
             .translate([width / 2, height / 2]) // translate to center of screen
@@ -26,6 +26,7 @@ class Usmap {
                 // .data(uState.properties.name)
                 .enter()
                 .append('path')
+                // .append('text')
                 .attr("d", path)
                 .attr('class','state')
                 // .attr('state', uState.features[0].properties.name)
@@ -35,18 +36,19 @@ class Usmap {
                 // debugger
 
 
-                
-                debugger
-                svg.selectAll('.state')._groups[0]
+                // 
+                // debugger
+                .text(svg.selectAll('.state')._groups[0]
                 .forEach(element => {
                     element.addEventListener('mouseover', function (){
                         // return element.__data__.properties.name
-                        console.log(element.__data__.properties.name)
+                        return (element.__data__.properties.name)
                         // const barGraph = new Bargraph(element.__data__.properties.name)
                     })
                     
-                });
+                }))
                 debugger
+
                 
             });
 
