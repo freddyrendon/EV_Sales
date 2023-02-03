@@ -1,3 +1,71 @@
-.state:hover{fill:#ff0;cursor:pointer}.state{fill:gray}.states-borders{fill:none;stroke:#fff;stroke-width:.5px}*{font-family:system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen,Ubuntu,Cantarell,"Open Sans","Helvetica Neue",sans-serif}body{background-color:#add8e6}.header{display:flex;flex-direction:column;align-items:center}.header-img>img{height:27px;width:27px;margin-right:10px}.nav-bar{display:flex;flex-direction:row;align-items:center;justify-content:space-between;width:100%;background-color:#7fffd4;float:right}.web-links{padding-left:20px}h1{text-align:center}h2{text-align:center}#Box{border:2px red solid}#USmap{border:2px green solid;float:left !important}#Bargraph{border:2px #ff0 solid;float:right !important}#manufacturer-list{border:2px solid blue}
+/*!*************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[1].use[1]!./node_modules/sass-loader/dist/cjs.js!./src/index.scss ***!
+  \*************************************************************************************************************************************/
+.state:hover {
+  fill: yellow;
+  cursor: pointer;
+}
 
-/*# sourceMappingURL=main.css.map*/
+.state {
+  fill: gray;
+}
+
+.states-borders {
+  fill: none;
+  stroke: #fff;
+  stroke-width: 0.5px;
+}
+
+* {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+body {
+  background-color: lightblue;
+}
+
+.header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.header-img > img {
+  height: 27px;
+  width: 27px;
+  margin-right: 10px;
+}
+
+.nav-bar {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  background-color: aquamarine;
+  float: right;
+}
+
+.web-links {
+  padding-left: 200px;
+}
+
+.web-links-right {
+  padding-right: 200px;
+}
+
+h1 {
+  text-align: center;
+}
+
+h2 {
+  text-align: center;
+}
+
+#USmap {
+  float: left !important;
+}
+
+#Bargraph {
+  float: right !important;
+}
