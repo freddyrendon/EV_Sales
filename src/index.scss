@@ -53,11 +53,11 @@ h2{
         text-align: center;
 }
 
-#Box {
-    // display: block;
-    // justify-content: center;
-    // border: 2px red solid;
-}
+// #Box {
+//     // display: block;
+//     // justify-content: center;
+//     // border: 2px red solid;
+// }
 
 #USmap {
     // border: 2px green solid;
@@ -69,11 +69,15 @@ h2{
     // border: 2px yellow solid;
     float: right !important;}
 
-#manufacturer-list {
-    // border: 2px solid blue;
-}
+// #manufacturer-list {
+//     // border: 2px solid blue;
+// }
 
 // .inner-box {
 //     border: 5px purple solid;
 //     height: 100px;
 // }
+
+.battery-cursor {
+    cursor: url(../img/icons8-cybertruck-64.png), auto;
+}
